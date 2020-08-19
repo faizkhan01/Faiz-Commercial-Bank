@@ -1,0 +1,53 @@
+body {
+    background-image: url('img/cash3.jpg');
+    background-size: cover;
+    padding-top: 100px;
+    backface-visibility: inherit;
+}
+.bg{
+    background-image: url('img/bank3.jpg');
+}
+
+
+/* main area */
+
+#main .login-area {
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgba(27, 12, 238, 0.966);
+    font-weight: bold;
+}
+
+/* .btn{
+    background-color: darkcyan;
+} */
+
+#main #login {
+    background-color: rgba(0, 153, 255, 0.808);
+    border: 2px solid black;
+}
+
+#main #login:hover {
+    box-shadow: 0 0 5px 0 gray;
+}
+
+
+/* transaction area */
+
+#transaction {
+    display: none;
+}
+
+#transaction .transaction-area,
+#transaction .box,
+#transaction .money-form {
+    border-radius: 10px;
+    box-shadow: 5px 5px grey;
+}
+
+#transaction .box {
+    font-weight: bold;
+    font-size: 40px;
+}
